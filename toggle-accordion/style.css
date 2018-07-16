@@ -13,10 +13,22 @@ button.accordion {
     outline: none;
     background: slateblue;
     cursor: pointer;
+    transition: background-color .2s linear;
 }
 
 button.accordion:hover {
     background: slategrey;
+}
+
+button.accordion::after {
+    content: '\f055';
+    font-family: "fontawesome";
+    font-size: 14px;
+    float: right;
+}
+
+button.accordion.is-open::after {
+    content: '\f056';
 }
 
 .accordion-content {
@@ -25,5 +37,5 @@ button.accordion:hover {
     border-right: 1px solid;
     max-height: 0;
     overflow: hidden;
-    transition: maxHeight .5s ease-in-out;
+    transition: maxHeight .5s ease-in;
 }
