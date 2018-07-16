@@ -25,4 +25,5 @@ button.accordion:hover {
     border-right: 1px solid;
     max-height: 0;
     overflow: hidden;
+    transition: maxHeight .5s ease-in-out;
 }
