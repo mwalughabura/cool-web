@@ -1,0 +1,32 @@
+#pointer2 {
+    width: 200px;
+    height: 140px;
+    position: relative;
+    background: blue;
+    float: left;
+    padding-left: 20px;
+}
+
+#pointer2:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 40px solid red;
+    border-top: 70px solid transparent;
+    border-bottom: 70px solid transparent;
+}
+
+#pointer2:before {
+    content: "";
+    position: absolute;
+    right: -50px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid blue;
+    border-top: 70px solid transparent;
+    border-bottom: 70px solid transparent;
+}

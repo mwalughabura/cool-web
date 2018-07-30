@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#pointer4 {
+    width: 200px;
+    height: 140px;
+    position: relative;
+    background: yellow;
+    float: left;
+    padding-left: 20px;
+}
+
+#pointer4:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 40px solid green;
+    border-top: 70px solid transparent;
+    border-bottom: 70px solid transparent;
+}
+
+#pointer4 p {
+    color: black;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 30px;
+}
