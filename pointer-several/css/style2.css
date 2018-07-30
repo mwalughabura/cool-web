@@ -1,4 +1,4 @@
-#pointer {
+#pointer2 {
     width: 200px;
     height: 140px;
     position: relative;
@@ -6,7 +6,19 @@
     float: left;
 }
 
-#pointer:before {
+#pointer2:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid white;
+    border-top: 70px solid transparent;
+    border-bottom: 70px solid transparent;
+}
+
+#pointer2:before {
     content: "";
     position: absolute;
     right: -50px;
