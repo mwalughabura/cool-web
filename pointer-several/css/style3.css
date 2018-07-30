@@ -1,0 +1,39 @@
+#pointer3 {
+    width: 200px;
+    height: 140px;
+    position: relative;
+    background: green;
+    float: left;
+    padding-left: 20px;
+}
+
+#pointer3:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 40px solid blue;
+    border-top: 70px solid transparent;
+    border-bottom: 70px solid transparent;
+}
+
+#pointer3:before {
+    content: "";
+    position: absolute;
+    right: -50px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid green;
+    border-top: 70px solid transparent;
+    border-bottom: 70px solid transparent;
+}
+
+p {
+    color: white;
+    padding-left: 60px;
+    padding-top: 10px;
+    font-size: 30px;
+}
