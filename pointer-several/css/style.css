@@ -3,9 +3,10 @@
     height: 140px;
     position: relative;
     background: red;
+    float: left;
 }
 
-#pointer:after {
+/* #pointer:after {
     content: "";
     position: absolute;
     left: 0;
@@ -15,7 +16,7 @@
     border-left: 50px solid white;
     border-top: 70px solid transparent;
     border-bottom: 70px solid transparent;
-}
+} */
 
 #pointer:before {
     content: "";
@@ -32,6 +33,6 @@
 p {
     color: white;
     padding-left: 60px;
-    padding-top: 40px;
+    padding-top: 10px;
     font-size: 30px;
 }
