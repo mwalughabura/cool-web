@@ -28,3 +28,10 @@
     border-top: 70px solid transparent;
     border-bottom: 70px solid transparent;
 }
+
+p {
+    color: white;
+    padding-left: 60px;
+    padding-top: 40px;
+    font-size: 30px;
+}
