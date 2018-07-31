@@ -95,12 +95,6 @@ img {
     background: #000;
 }
 
-/* @supports (scroll-snap-type){
-    .slider > a {
-        display: none;
-    }
-} */
-
 html,body {
     height: 100%;
     overflow: hidden;
