@@ -5,14 +5,13 @@ body {
     background: -o-linear-gradient(top, rgb(136,199,201) 58%, rgb(202,232,235) 100%);
     background: linear-gradient(top, rgb(136,199,201) 58%, rgb(202,232,235) 100%);
     padding: 3%;
-    height: 94%;
 }
 
 /* ruled paper display */
 .paper {
-    font: normal 12px/1.5 "Lucida Grande", arial, sans-serif;
+    font: bolder 12px/1.5 "Lucida Grande", arial, sans-serif;
     width: 50%;
-    height: 80%;
+    /* height: 80%; */
     margin: 0 auto;
     padding: 6px 5px 4px 42px;
     position: relative;
