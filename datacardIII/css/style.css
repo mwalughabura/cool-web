@@ -5,6 +5,7 @@
     width: 18em;
     position: relative;
     border-left: 2em solid rgba(0, 0, 102, .9);
+    box-shadow: 3px 3px rgba(0, 0, 0, .3);
 }
 
 .card {
@@ -15,10 +16,8 @@
     position: relative;
 }
 
-
-
 .card h3 {
-    color: black;
+    color: maroon;
     font-size: 4em;
     margin-top: 0;
     margin-bottom: 0;
@@ -27,7 +26,7 @@
 }
 
 .card p {
-    color: grey;
+    color: rgb(191, 95, 91);
     font-size: 2em;
     margin-top: 0;
     margin-bottom: 0;
