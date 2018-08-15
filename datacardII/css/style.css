@@ -1,0 +1,39 @@
+.container {
+    margin: auto;
+    /* border: 1px solid blue; */
+    padding: 10px;
+    height: 12em;
+    width: 18em;
+    background: #ff0000;
+    border-radius: 7px;
+    position: relative;
+}
+
+.card {
+    width: 80%;
+    height: 80%;
+    text-align: center;
+    background: rgba(0, 0, 102, .9);
+    margin: auto;
+    margin-top: 0;
+    border-radius: 7px;
+    position: relative;
+    align-items: center;
+}
+
+.card h4 {
+    visibility: hidden;
+}
+
+.card h3 {
+    color: white;
+    font-size: 150%;
+    padding-bottom: 0;
+    position: relative;
+}
+
+.card p {
+    color: white;
+    font-size: 150%;
+    padding: 0;
+}
