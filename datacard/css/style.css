@@ -1,13 +1,19 @@
-body {
-    background: white;
-    margin: 0;
-}
-
 .container {
     margin: auto;
     width: 50%;
+    height: 50%;
     border: 1px solid blue;
     padding: 10px;
+    height: 12em;
+    width: 18em;
+    background: grey;
+    border-radius: 7px;
 }
 
-.card
+.card {
+    width: 95%;
+    height: 80%;
+    text-align: center;
+    background: white;
+    margin: auto;
+}
