@@ -1,39 +1,30 @@
 .container {
     margin: auto;
-    /* border: 1px solid blue; */
     padding: 10px;
     height: 12em;
     width: 18em;
-    background: #ff0000;
-    border-radius: 7px;
     position: relative;
+    border-left: 2em solid rgba(0, 0, 102, .9);
 }
 
 .card {
-    width: 80%;
-    height: 80%;
-    text-align: center;
-    background: rgba(0, 0, 102, .9);
+    text-align: left;
     margin: auto;
     margin-top: 0;
     border-radius: 7px;
     position: relative;
-    align-items: center;
 }
 
-.card h4 {
-    visibility: hidden;
-}
+
 
 .card h3 {
-    color: white;
-    font-size: 150%;
-    padding-bottom: 0;
-    position: relative;
+    color: black;
+    font-size: 4em;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0.625em;
 }
 
 .card p {
-    color: white;
-    font-size: 150%;
-    padding: 0;
+    color: grey;
 }
