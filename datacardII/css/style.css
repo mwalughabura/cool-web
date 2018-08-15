@@ -1,7 +1,7 @@
 .container {
     margin: auto;
     padding: 10px;
-    height: 12em;
+    height: 10em;
     width: 18em;
     position: relative;
     border-left: 2em solid rgba(0, 0, 102, .9);
@@ -22,9 +22,14 @@
     font-size: 4em;
     margin-top: 0;
     margin-bottom: 0;
-    padding-top: 0.625em;
+    padding-top: 0.425em;
+    text-align: center;
 }
 
 .card p {
     color: grey;
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0.225em;
 }
