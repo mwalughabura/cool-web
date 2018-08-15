@@ -1,0 +1,13 @@
+body {
+    background: white;
+    margin: 0;
+}
+
+.container {
+    margin: auto;
+    width: 50%;
+    border: 1px solid blue;
+    padding: 10px;
+}
+
+.card
