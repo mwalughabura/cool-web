@@ -1,7 +1,7 @@
 var i = 0;
 
 function change_image (){
-    document.getElementById("slideshow").src = "../img/img"+(i++ % 6)+".png";
+    document.getElementById("slideshow").src = "img/img"+(i++ % 5)+".png";
 }
 
 function slider() {
