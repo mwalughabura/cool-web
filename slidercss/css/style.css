@@ -25,6 +25,37 @@ ul li {
     box-sizing: border-box;
     transition: .5s;
     text-align: center;
+    overflow: hidden;
+}
+
+ul li:nth-child(1) {
+    background: url(../img/1280px-Flag_of_Tanzania.svg.png);
+    background-size: cover;
+    background-position: left;
+}
+
+ul li:nth-child(2) {
+    background: url(../img/1280px-Flag_of_Uganda.svg.png);
+    background-size: cover;
+    background-position: left;
+}
+
+ul li:nth-child(3) {
+    background: url(../img/2000px-Flag_of_Kenya.svg.png);
+    background-size: cover;
+    background-position: left;
+}
+
+ul li:nth-child(4) {
+    background: url(../img/2000px-Flag_of_Rwanda.svg.png);
+    background-size: cover;
+    background-position: left;
+}
+
+ul li:nth-child(5) {
+    background: url(../img/Flag_of_Burundi.svg.png);
+    background-size: cover;
+    background-position: left;
 }
 
 ul:hover li {
@@ -33,4 +64,20 @@ ul:hover li {
 
 ul li:hover {
     width: 60%;
+}
+
+ul li .content {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    box-sizing: border-box;
+    color: #fff;
+}
+
+ul li:hover .content {
+    bottom: 0;
+    transition: 0.5s;
+    transition-delay: 0.5s;
 }
