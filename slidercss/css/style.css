@@ -29,13 +29,13 @@ ul li {
 }
 
 ul li:nth-child(1) {
-    background: url(../img/1280px-Flag_of_Tanzania.svg.png);
+    background: url(../img/1280px-Flag_of_Uganda.svg.png);
     background-size: cover;
     background-position: left;
 }
 
 ul li:nth-child(2) {
-    background: url(../img/1280px-Flag_of_Uganda.svg.png);
+    background: url(../img/1280px-Flag_of_Tanzania.svg.png);
     background-size: cover;
     background-position: left;
 }
