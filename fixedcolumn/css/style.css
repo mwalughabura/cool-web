@@ -1,6 +1,6 @@
 .table-scroll {
 	position:relative;
-	max-width:600px;
+	max-width: 90vw;
 	margin:auto;
 	overflow:hidden;
 	border:1px solid #000;
@@ -22,9 +22,9 @@
 	white-space:nowrap;
 	vertical-align:top;
 }
-.table-scroll thead, .table-scroll tfoot {
+/* .table-scroll thead, .table-scroll tfoot {
 	background:#f9f9f9;
-}
+} */
 .clone {
 	position:absolute;
 	top:0;
@@ -39,11 +39,28 @@
 }
 .clone tbody th {
 	visibility:visible;
-	color:red;
+	color:white;
 }
 .clone .fixed-side {
 	border:1px solid #000;
-	background:#eee;
+	background:red;
 	visibility:visible;
 }
 .clone thead, .clone tfoot{background:transparent;}
+
+thead tr th{
+	background-color: #000066 !important;
+	color: #fff;
+}
+
+/* for custom scrollbar for webkit browser*/
+
+::-webkit-scrollbar {
+	width: 6px;
+  } 
+  ::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  } 
+  ::-webkit-scrollbar-thumb {
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  }
