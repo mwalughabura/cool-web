@@ -41,16 +41,18 @@
 	visibility:visible;
 	color:white;
 }
-.clone .fixed-side {
-	border:1px solid #000;
-	background:red;
-	visibility:visible;
-}
+
 .clone thead, .clone tfoot{background:transparent;}
 
 thead tr th{
 	background-color: #000066 !important;
 	color: #fff;
+}
+
+.clone .fixed-side {
+	border:1px solid #000;
+	background:red !important;
+	visibility:visible;
 }
 
 /* for custom scrollbar for webkit browser*/
