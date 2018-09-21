@@ -1,0 +1,38 @@
+.table {
+    border: none;
+    border-right: solid 1px #DDEFEF;
+    /* border-collapse: separate; */
+    border-spacing: 0;
+    font: normal 13px Arial, sans-serif;
+}
+.table thead th {
+    background-color: #000066;
+    border-bottom: solid 1px #DDEFEF;
+    color: #fff;
+    text-align: left;
+    white-space: nowrap;
+}
+.table tbody td {
+    border-bottom: solid 1px #DDEFEF;
+    color: #333;
+    white-space: nowrap;
+}
+.wrapper {
+    position: relative;
+}
+.scroller {
+    margin-left: 141px;
+    overflow-x: scroll;
+    overflow-y: visible;
+    width: 80vw;
+}
+.table .sticky-col {
+    border-left: solid 1px #DDEFEF;
+	border-right: solid 1px #DDEFEF;
+	background-color: #ff0000;
+	color: #ffffff;
+    left: 0;
+    position: absolute;
+    top: auto;
+    width: 120px;
+}
